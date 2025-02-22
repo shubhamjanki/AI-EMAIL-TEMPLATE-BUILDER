@@ -27,7 +27,7 @@ const Navbar = ({ currentView, setCurrentView }) => {
                   : 'bg-transparent hover:bg-white/10 hover:text-white'
               } transition-all duration-300`}
             >
-              Add Reminder
+            SEND MAIL
             </button>
           </li>
           <li>
@@ -39,7 +39,7 @@ const Navbar = ({ currentView, setCurrentView }) => {
                   : 'bg-transparent hover:bg-white/10 hover:text-white'
               } transition-all duration-300`}
             >
-              View Reminders
+              E-MAILS
             </button>
           </li>
         </ul>

@@ -8,7 +8,7 @@ router.post('/create', async (req, res) => {
   try {
     const reminder = new Reminder({ email, title, description, dateTime });
     await reminder.save();
-    res.status(201).json({ message: 'Reminder created successfully', reminder });
+    res.status(201).json({ message: 'E-main sent successfully', reminder });
   } catch (error) {
     res.status(500).json({ error: 'Failed to create reminder' });
   }
